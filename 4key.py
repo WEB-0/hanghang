@@ -93,7 +93,7 @@ with st.form("form"):
         placeholder=example["activity"])
     
     competency = st.text_area(
-            "성장모습",
+            "성장모습(수업 후 함양된 역량)",
             value=example["competency"] if auto_complete else "",
             placeholder=example["competency"])
 
